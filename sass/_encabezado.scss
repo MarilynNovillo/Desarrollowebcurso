@@ -1,0 +1,118 @@
+$violet:#301B3F;
+$fondoEnc:#f6d098b7;
+$letras:khaki;
+$lavanda:#d9a4ff;
+
+
+/*Media*/
+
+@media only screen and (max-width: 500px){
+    
+    .header__div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: $fondoEnc;
+        width: 100%;
+        height: 50px;
+    }
+    
+    .header__h1--style{
+        display: flex;
+        color: $violet;
+        text-align: center;
+        font-family: 'Andada Pro', serif;
+        font-size: 2em;
+        width: 400px;
+        height: 80px;
+        padding-top: 30px;
+        padding-bottom: 60px;
+    }
+    
+
+    /*tamaño compu*/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: $fondoEnc;
+    width: 100%;
+    height: 150px;
+}
+.header__h1--style{
+    color: $violet;
+    text-align: center;
+    font-family: 'Andada Pro', serif;
+    font-size: 4em;
+    width: 400px;
+    height: 80px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+
+nav{
+    height: 40px;
+    background-color: $violet;
+    width: 100%;
+    font-size: 20px;
+}
+
+
+a {
+    text-decoration: none;
+
+}
+
+.menu{
+    position: relative;
+    padding: 5px;
+    color: $letras;
+    background-color: $violet;
+    }
+
+
+ul li:hover{
+    transform: scale(1.3);
+}
+
+ul li :hover{
+    background-color: $letras;
+    color: $violet;
+}
+
+ul li a :hover{
+        color: $violet;
+}
+
+ul ul{
+    position: absolute;
+    display: none;
+    background-color: $lavanda;
+}
+
+
+ul ul li a{
+    background-color: #d9a4ff;
+    color: #574a00;
+}
+
+
+ul li:hover ul{
+    display: block;
+}
+
+li{
+    list-style: none;
+}
+
+
+}

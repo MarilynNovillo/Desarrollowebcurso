@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@1,600&display=swap'); /*Para h1*/
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:ital,wght@1,600&family=Bitter:ital,wght@1,300&family=Source+Serif+Pro:ital,wght@1,300&display=swap');/*h2 index*/
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');/*NOSOTROS*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+@import "_encabezado";
+@import "_cuerpo";
+@import "_footer";

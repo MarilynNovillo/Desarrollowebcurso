@@ -1,0 +1,152 @@
+
+$letras:#351500;
+$lavanda:#e1c1ff85;
+
+@media only screen and (max-width: 500px){
+
+    .main--style1{
+        background-color: $lavanda;
+        height: 170px;
+        font-family: 'Source Serif Pro', serif;
+        font-size: 0.5em;
+        font-weight:bolder;
+        text-align: center;
+        color: $letras;
+        margin: 50px 50px 50px 50px;
+        padding-top: 55px;
+        border-radius: 25px;
+        border-style: groove;
+        border-color: #F6D198;
+    }
+    
+    .main--style2{
+        background-color: $lavanda;
+        font-size:larger;
+        text-align: justify;
+        color: $letras;
+        font-style: italic;
+        margin: 10px 5px 10px 5px;
+        padding: 5px 30px 5px 30px;
+        border: #F6D198 solid 1px;
+        border-radius: 10px;
+    }
+    
+    .main__h2--font{
+    
+        font-size:  140%;
+        padding-bottom: 1rem;
+    }
+    
+    .main__h3--font{
+    
+        text-align: center;
+        font-style: normal;
+        font-family: 'Courgette', cursive;
+        font-size: 2rem;
+        padding-bottom: 30px;
+    }
+    
+
+}
+
+body{
+    color: cornsilk;
+    background-image: url(img/fondo.webp);
+    background-size:cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+}
+
+.main--style1{
+    background-color: $lavanda;
+    height: 170px;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 1.5em;
+    font-weight:bolder;
+    text-align: center;
+    color: $letras;
+    margin: 50px 50px 50px 50px;
+    padding-top: 55px;
+    border-radius: 25px;
+    border-style: groove;
+    border-color: #F6D198;
+}
+
+.main--style2{
+    background-color: $lavanda;
+    font-size:larger;
+    text-align: justify;
+    color: $letras;
+    font-style: italic;
+    margin: 10px 5px 10px 5px;
+    padding: 5px 30px 5px 30px;
+    border: #F6D198 solid 1px;
+    border-radius: 10px;
+}
+
+.main__h2--font{
+
+    font-size:  140%;
+    padding-bottom: 1rem;
+}
+
+.main__h3--font{
+
+    text-align: center;
+    font-style: normal;
+    font-family: 'Courgette', cursive;
+    font-size: 2rem;
+    padding-bottom: 30px;
+}
+
+.imag{
+    height: auto;
+    width: 100%;
+    display: grid;
+
+}
+.prop{
+    min-width: 200px;
+    min-height: 200px;
+    /*border: solid 2px rgba(255, 255, 255)*/
+}
+
+#formulario{
+    background-color: $lavanda;
+    color: $letras;
+    margin: 10px 5px 10px 5px;
+    padding: 5px 30px 5px 30px;
+    border: #F6D198 solid 1px;
+    border-radius: 10px;
+    font-family: 'Source Serif Pro', serif;
+    font-weight: bold;
+
+}
+
+/*Nuestros Productos*/
+
+
+@each $planta in sucu , pot , lav {
+    .#{$planta}-imagen{
+        height: auto;
+        width: 200px;
+        border: 2px solid cornsilk;
+        display: flex;
+        justify-content: center;
+
+}
+}
+
+/*Servicios*/
+
+.contenedor{
+    width: 50%;
+    margin: auto;
+}
+
+.carousel img {
+    object-fit: cover;
+    object-position: center;
+    height: 90vh;
+}
