@@ -40,12 +40,13 @@
     padding-top: 30px;
     padding-bottom: 60px;
   }
-  .navbar-collapse {
-    background-color: #301B3F;
-  }
 }
 
 /*tamaño compu*/
+.navbar-nav {
+  background-color: #301B3F;
+}
+
 header {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -181,7 +182,7 @@ li {
 
 body {
   color: cornsilk;
-  background-image: url(ideaNovillo/img/fondo.wep);
+  background-image: url(fondo.png);
   background-size: cover;
   background-position: center center;
   display: -webkit-box;

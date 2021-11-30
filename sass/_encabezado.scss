@@ -29,13 +29,13 @@ $lavanda:#d9a4ff;
         padding-bottom: 60px;
     }
     
-    .navbar-collapse{
-        background-color: $violet;
-    }
-    
 }
     /*tamaño compu*/
 
+    .navbar-nav{
+        background-color: $violet;
+    }
+    
 header{
     display: flex;
     justify-content: space-between;
