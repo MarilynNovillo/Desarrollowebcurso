@@ -29,7 +29,11 @@ $lavanda:#d9a4ff;
         padding-bottom: 60px;
     }
     
-
+    .navbar-collapse{
+        background-color: $violet;
+    }
+    
+}
     /*tamaño compu*/
 
 header{
@@ -114,5 +118,3 @@ li{
     list-style: none;
 }
 
-
-}

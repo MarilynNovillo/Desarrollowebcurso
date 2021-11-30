@@ -40,88 +40,104 @@
     padding-top: 30px;
     padding-bottom: 60px;
   }
-  /*tamaño compu*/
-  header {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  .header__div {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    background-color: #f6d098b7;
-    width: 100%;
-    height: 150px;
-  }
-  .header__h1--style {
-    color: #301B3F;
-    text-align: center;
-    font-family: 'Andada Pro', serif;
-    font-size: 4em;
-    width: 400px;
-    height: 80px;
-    padding-top: 30px;
-    padding-bottom: 60px;
-  }
-  nav {
-    height: 40px;
-    background-color: #301B3F;
-    width: 100%;
-    font-size: 20px;
-  }
-  a {
-    text-decoration: none;
-  }
-  .menu {
-    position: relative;
-    padding: 5px;
-    color: khaki;
+  .navbar-collapse {
     background-color: #301B3F;
   }
-  ul li:hover {
-    -webkit-transform: scale(1.3);
-            transform: scale(1.3);
-  }
-  ul li :hover {
-    background-color: khaki;
-    color: #301B3F;
-  }
-  ul li a :hover {
-    color: #301B3F;
-  }
-  ul ul {
-    position: absolute;
-    display: none;
-    background-color: #d9a4ff;
-  }
-  ul ul li a {
-    background-color: #d9a4ff;
-    color: #574a00;
-  }
-  ul li:hover ul {
-    display: block;
-  }
-  li {
-    list-style: none;
-  }
+}
+
+/*tamaño compu*/
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #f6d098b7;
+  width: 100%;
+  height: 150px;
+}
+
+.header__h1--style {
+  color: #301B3F;
+  text-align: center;
+  font-family: 'Andada Pro', serif;
+  font-size: 4em;
+  width: 400px;
+  height: 80px;
+  padding-top: 30px;
+  padding-bottom: 60px;
+}
+
+nav {
+  height: 40px;
+  background-color: #301B3F;
+  width: 100%;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu {
+  position: relative;
+  padding: 5px;
+  color: khaki;
+  background-color: #301B3F;
+}
+
+ul li:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+ul li :hover {
+  background-color: khaki;
+  color: #301B3F;
+}
+
+ul li a :hover {
+  color: #301B3F;
+}
+
+ul ul {
+  position: absolute;
+  display: none;
+  background-color: #d9a4ff;
+}
+
+ul ul li a {
+  background-color: #d9a4ff;
+  color: #574a00;
+}
+
+ul li:hover ul {
+  display: block;
+}
+
+li {
+  list-style: none;
 }
 
 @media only screen and (max-width: 500px) {
@@ -165,7 +181,7 @@
 
 body {
   color: cornsilk;
-  background-image: url(img/fondo.webp);
+  background-image: url(ideaNovillo/img/fondo.wep);
   background-size: cover;
   background-position: center center;
   display: -webkit-box;
