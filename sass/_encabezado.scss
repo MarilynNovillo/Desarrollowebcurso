@@ -31,11 +31,9 @@ $lavanda:#d9a4ff;
     
 }
     /*tamaño compu*/
-
-    .navbar-nav{
+    .nav-link{
         background-color: $violet;
     }
-    
 header{
     display: flex;
     justify-content: space-between;
@@ -117,4 +115,3 @@ ul li:hover ul{
 li{
     list-style: none;
 }
-
