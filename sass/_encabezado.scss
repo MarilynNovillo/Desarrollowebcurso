@@ -6,30 +6,6 @@ $lavanda:#d9a4ff;
 
 /*Media*/
 
-@media only screen and (max-width: 500px){
-    
-    .header__div{
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        background-color: $fondoEnc;
-        width: 100%;
-        height: 50px;
-    }
-    
-    .header__h1--style{
-        display: flex;
-        color: $violet;
-        text-align: center;
-        font-family: 'Andada Pro', serif;
-        font-size: 2em;
-        width: 400px;
-        height: 80px;
-        padding-top: 30px;
-        padding-bottom: 60px;
-    }
-    
-}
 
 /*tamaño compu*/
 .nav-link{
@@ -110,4 +86,33 @@ ul li:hover ul{
 
 li{
     list-style: none;
+}
+
+
+@media only screen and (max-width: 500px){
+    
+    .header__div{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: $fondoEnc;
+        width: 100%;
+        height: 100px;
+    }
+    
+    .header__h1--style{
+        display: flex;
+        color: $violet;
+        text-align: center;
+        font-family: 'Andada Pro', serif;
+        font-size: 220%;
+        width: 400px;
+        height: 80px;
+        padding-top: 30px;
+        padding-bottom: 60px;
+    }
+    
+    .navbar{
+        height: 50px;
+    }
 }

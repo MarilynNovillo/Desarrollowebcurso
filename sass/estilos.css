@@ -11,37 +11,6 @@
 }
 
 /*Media*/
-@media only screen and (max-width: 500px) {
-  .header__div {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    background-color: #f6d098b7;
-    width: 100%;
-    height: 50px;
-  }
-  .header__h1--style {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    color: #301B3F;
-    text-align: center;
-    font-family: 'Andada Pro', serif;
-    font-size: 2em;
-    width: 400px;
-    height: 80px;
-    padding-top: 30px;
-    padding-bottom: 60px;
-  }
-}
-
 /*tamaño compu*/
 .nav-link {
   background-color: #301B3F;
@@ -132,6 +101,40 @@ ul li:hover ul {
 
 li {
   list-style: none;
+}
+
+@media only screen and (max-width: 500px) {
+  .header__div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    background-color: #f6d098b7;
+    width: 100%;
+    height: 100px;
+  }
+  .header__h1--style {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #301B3F;
+    text-align: center;
+    font-family: 'Andada Pro', serif;
+    font-size: 220%;
+    width: 400px;
+    height: 80px;
+    padding-top: 30px;
+    padding-bottom: 60px;
+  }
+  .navbar {
+    height: 50px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
