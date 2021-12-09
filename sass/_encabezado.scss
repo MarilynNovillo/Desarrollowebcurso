@@ -30,10 +30,11 @@ $lavanda:#d9a4ff;
     }
     
 }
-    /*tamaño compu*/
-    .nav-link{
-        background-color: $violet;
-    }
+
+/*tamaño compu*/
+.nav-link{
+    background-color: $violet;
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -62,7 +63,6 @@ header{
 
 
 nav{
-    height: 40px;
     background-color: $violet;
     width: 100%;
     font-size: 20px;
@@ -74,17 +74,13 @@ a {
 
 }
 
-.menu{
+/*.menu{
     position: relative;
     padding: 5px;
     color: $letras;
     background-color: $violet;
-    }
+    }*/
 
-
-ul li:hover{
-    transform: scale(1.3);
-}
 
 ul li :hover{
     background-color: $letras;
