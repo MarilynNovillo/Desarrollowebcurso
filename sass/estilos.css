@@ -12,6 +12,16 @@
 
 /*Media*/
 /*tamaño compu*/
+.lavs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 150px;
+}
+
 .nav-link {
   background-color: #301B3F;
 }
@@ -103,7 +113,7 @@ li {
   list-style: none;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 479px) {
   .header__div {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -119,6 +129,15 @@ li {
     width: 100%;
     height: 100px;
   }
+  .lavs {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    height: 90px;
+  }
   .header__h1--style {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -126,12 +145,18 @@ li {
     color: #301B3F;
     text-align: center;
     font-family: 'Andada Pro', serif;
-    font-size: 220%;
-    width: 400px;
+    font-size: 250%;
+    width: auto;
     height: 80px;
     padding-top: 30px;
     padding-bottom: 60px;
   }
+  .navbar {
+    height: 50px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
   .navbar {
     height: 50px;
   }

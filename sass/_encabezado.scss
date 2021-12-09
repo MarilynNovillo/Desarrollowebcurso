@@ -8,6 +8,13 @@ $lavanda:#d9a4ff;
 
 
 /*tamaño compu*/
+.lavs{
+    display: flex;
+    justify-content: center;
+    height: 150px;
+
+}
+
 .nav-link{
     background-color: $violet;
 }
@@ -89,7 +96,7 @@ li{
 }
 
 
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 479px){
     
     .header__div{
         display: flex;
@@ -99,14 +106,21 @@ li{
         width: 100%;
         height: 100px;
     }
+
+    .lavs{
+        display: flex;
+        justify-content: center;
+        height: 90px;
+
+    }
     
     .header__h1--style{
         display: flex;
         color: $violet;
         text-align: center;
         font-family: 'Andada Pro', serif;
-        font-size: 220%;
-        width: 400px;
+        font-size: 250%;
+        width: auto;
         height: 80px;
         padding-top: 30px;
         padding-bottom: 60px;
@@ -115,4 +129,12 @@ li{
     .navbar{
         height: 50px;
     }
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar{
+        height: 50px;
+    }
+
+    
 }
