@@ -83,6 +83,37 @@ body{
     padding: 5px 30px 5px 30px;
     border: #F6D198 solid 1px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    border: 2px cornsilk solid;
+}
+
+.main--style3{
+    @extend.main--style2;
+    display: grid;
+    grid-template-areas: 
+    "imgg nomb"
+    "imgg desc"
+    "imgg cuid";
+    grid-template-columns: 38% 48%;
+    grid-template-rows: 50px 1fr 1fr;
+    grid-column-gap: 2px;
+    grid-row-gap: 10px;
+}
+.imgg {
+    grid-area: imgg; 
+    display: flex;
+    flex-wrap: nowrap;
+}
+.nomb{
+    grid-area: nomb;
+}
+.desc{
+    grid-area: desc;
+}
+.cuid{
+    grid-area: cuid;
 }
 
 .main__h2--font{
@@ -103,7 +134,7 @@ body{
 .imag{
     height: auto;
     width: 100%;
-    display: grid;
+    /*display: grid;*/
 
 }
 .prop{
@@ -129,12 +160,11 @@ body{
 
 @each $planta in sucu , pot , lav {
     .#{$planta}-imagen{
-        height: auto;
-        width: 200px;
         border: 2px solid cornsilk;
+        width: 350px;
         display: flex;
-        justify-content: center;
-        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: space-between;
 
 }
 }
